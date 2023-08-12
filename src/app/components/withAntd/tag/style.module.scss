@@ -1,0 +1,12 @@
+.tag {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  gap: 15px;
+}
+
+.blue {
+  :global(.ant-tag-close-icon) {
+    color: #0958d9;
+  }
+}

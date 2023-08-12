@@ -1,0 +1,12 @@
+.tabs {
+  :global(.ant-tabs-nav) {
+    margin-bottom: 0;
+    :global(.ant-tabs-tab) {
+      border-radius: 0 !important;
+      margin-left: 0 !important;
+      border-color: #dddddd !important;
+      background-color: white !important;
+      color: #a3a3a3 !important;
+    }
+  }
+}

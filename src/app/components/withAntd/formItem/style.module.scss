@@ -1,0 +1,28 @@
+.formItem {
+  overflow: hidden;
+  :global(.ant-row) {
+    // overflow: hidden;
+    // flex-wrap: nowrap;
+    column-gap: 5px;
+    // flex: 0 1 auto;
+    :global(.ant-form-item-label) {
+      // overflow: hidden;
+      max-width: unset;
+      flex: 0 0 auto;
+    }
+    :global(.ant-form-item-control) {
+      // overflow: hidden;
+      // flex: 0 1 auto;
+      :global(.ant-form-item-control-input-content) {
+        display: flex;
+      }
+      label {
+        color: #868686;
+      }
+    }
+  }
+
+  &.oneLine {
+    flex-basis: 100% !important;
+  }
+}

@@ -1,0 +1,16 @@
+.button {
+  &:global(.ant-btn-background-ghost) {
+    &.warn,
+    &:hover {
+      border-color: #ffa930 !important;
+      color: #ffa930 !important;
+    }
+  }
+
+  &.primary {
+    background-color: #1677ff;
+  }
+  &:hover {
+    opacity: 0.75;
+  }
+}
